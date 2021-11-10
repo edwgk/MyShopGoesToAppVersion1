@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MySoopGoesToApp</string>
+    <string name="logina_Activity2">LogIn</string>
+    <string name="Registro_Activity">Registro</string>
+    <string name="Producto_Activity">Registro Producto</string>
+
+</resources>
