@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mysoopgoestoapp">
+    package="com.example.myshopgoestoapp">
 
     <application
         android:allowBackup="true"
@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySoopGoesToApp">
         <activity
-            android:name=".Producto_Activity"
+            android:name="com.example.myshopgoestoapp.Producto_Activity"
             android:label="@string/Producto_Activity"
             android:exported="false" />
         <activity
-            android:name=".Registro_Activity"
+            android:name="com.example.myshopgoestoapp.Registro_Activity"
             android:label="@string/Registro_Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.myshopgoestoapp.MainActivity"
             android:label="My Shop Goes To App"
             android:exported="false" />
         <activity
 
-            android:name=".Login_Activity2"
+            android:name="com.example.myshopgoestoapp.Login_Activity2"
             android:label="@string/logina_Activity2"
             android:exported="true">
             <intent-filter>

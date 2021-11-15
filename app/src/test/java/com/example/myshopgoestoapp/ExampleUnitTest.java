@@ -1,4 +1,4 @@
-package com.example.mysoopgoestoapp;
+package com.example.myshopgoestoapp;
 
 import org.junit.Test;
 

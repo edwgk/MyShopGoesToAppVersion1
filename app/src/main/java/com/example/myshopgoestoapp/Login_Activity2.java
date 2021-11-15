@@ -1,4 +1,4 @@
-package com.example.mysoopgoestoapp;
+package com.example.myshopgoestoapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
