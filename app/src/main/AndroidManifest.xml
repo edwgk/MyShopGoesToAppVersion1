@@ -19,6 +19,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="My Shop Goes To App"
             android:exported="false" />
         <activity
 
