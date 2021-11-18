@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Login_Activity2 extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     EditText et1,et2;
     TextView tv1,tv2;
@@ -18,7 +18,7 @@ public class Login_Activity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login2);
+        setContentView(R.layout.activity_login);
 
         et1=(EditText) findViewById(R.id.editTextTextPersonName);
         et2=(EditText) findViewById(R.id.editTextTextPassword);
