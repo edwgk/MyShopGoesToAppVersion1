@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySoopGoesToApp">
         <activity
-            android:name=".Producto_Activity"
-            android:label="@string/Producto_Activity"
+            android:name=".EditarProductoActivity"
+            android:label="Editar Producto"
+
             android:exported="false" />
         <activity
             android:name=".Registro_Activity"
@@ -23,8 +24,9 @@
             android:exported="false" />
         <activity
 
-            android:name=".Login_Activity2"
+            android:name=".LoginActivity"
             android:label="@string/logina_Activity2"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
