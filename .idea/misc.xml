@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MisionTIC2022/Ciclo4/AndroidClases2/MyShopGoesToApp/app/src/main/res/layout/activity_editar_producto.xml" value="0.25905797101449274" />
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases/MyShopGoesToApp/app/src/main/res/drawable/ic_login.xml" value="0.3828125" />
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases/MyShopGoesToApp/app/src/main/res/layout/activity_login2.xml" value="0.3020833333333333" />
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases/MyShopGoesToApp/app/src/main/res/layout/activity_producto.xml" value="0.27898550724637683" />
@@ -11,6 +12,7 @@
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases/MySoopGoesToApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases/MySoopGoesToApp/app/src/main/res/layout/activity_producto.xml" value="0.3111413043478261" />
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases/MySoopGoesToApp/app/src/main/res/layout/activity_registro.xml" value="0.3111413043478261" />
+        <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases2/MyShopGoesToApp/app/src/main/res/layout/activity_main.xml" value="0.2694746376811594" />
         <entry key="..\:/MisionTIC2022/Ciclo4/ProyectosAndroidClases2/MyShopGoesToApp/app/src/main/res/layout/activity_registro.xml" value="0.26902173913043476" />
       </map>
     </option>
