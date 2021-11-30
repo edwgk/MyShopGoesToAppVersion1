@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
         String user=et1.getText().toString();
         String pass=et2.getText().toString();
         if(!user.equals("") && !pass.equals("")){
-            if(user.equals("ShoopAdmins1")&&pass.equals("Admins01")){
+            if(user.equals("ShopAdmins1")&&pass.equals("Admins01")){
                 Intent newIntent=new Intent(this,MainActivity.class);
                 startActivity(newIntent);
                 Toast.makeText(this, "Login Correcto ", Toast.LENGTH_SHORT).show();
