@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
             if(user.equals("ShopAdmins1")&&pass.equals("Admins01")){
                 Intent newIntent=new Intent(this,MainActivity.class);
                 startActivity(newIntent);
-                Toast.makeText(this, "Login Correcto ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "¡Login Correcto! ", Toast.LENGTH_SHORT).show();
                 finish();
             }
             else {
