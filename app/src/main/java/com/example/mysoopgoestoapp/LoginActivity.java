@@ -20,8 +20,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        et1=(EditText) findViewById(R.id.editTextTextPersonName);
-        et2=(EditText) findViewById(R.id.editTextTextPassword);
+        et1=(EditText) findViewById(R.id.etUsuario);
+        et2=(EditText) findViewById(R.id.etpassword);
         tv1=(TextView) findViewById(R.id.textView3);
         tv2=(TextView) findViewById(R.id.textView4);
         tv1.setClickable(true);
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
             if(user.equals("ShopAdmins1")&&pass.equals("Admins01")){
                 Intent newIntent=new Intent(this,MainActivity.class);
                 startActivity(newIntent);
-                Toast.makeText(this, "¡Login Correcto! ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "¡Bienvenido! ", Toast.LENGTH_SHORT).show();
                 finish();
             }
             else {
