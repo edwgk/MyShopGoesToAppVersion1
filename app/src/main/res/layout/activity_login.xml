@@ -69,10 +69,12 @@
                         android:id="@+id/etUsuario"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:drawableLeft="@drawable/ic_user"
                         android:ems="10"
-                        android:hint="Usuario"
-                        android:inputType="textPersonName"
+                        android:hint="Usuario (email)"
+                        android:inputType="textEmailAddress"
                         android:minHeight="48dp"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
@@ -84,9 +86,11 @@
                         android:layout_height="wrap_content" />
 
                     <EditText
-                        android:id="@+id/etpassword"
+                        android:id="@+id/etPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:drawableLeft="@drawable/ic_pass"
                         android:ems="10"
                         android:hint="Contraseña"
@@ -97,7 +101,8 @@
                         android:shadowColor="@color/black" />
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btnLogIn"
+                        style="@style/Widget.AppCompat.Button.Colored"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -113,7 +118,7 @@
                         android:gravity="center">
 
                         <TextView
-                            android:id="@+id/textView4"
+                            android:id="@+id/tvRegistroNuevoUsuario"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:minHeight="48dp"
@@ -126,7 +131,7 @@
                             android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/tvRecordarPassword"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:minHeight="48dp"

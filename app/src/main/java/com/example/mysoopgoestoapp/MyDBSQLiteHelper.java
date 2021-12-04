@@ -11,14 +11,14 @@ public class MyDBSQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db){
-        db.execSQL("CREATE TABLE usuariosapp(_id INTEGER PRIMARY KEY AUTOINCREMENT, nombres TEXT, apellidos TEXT, ndi TEXT, email TEXT)");
+        db.execSQL("CREATE TABLE usuariosapp(_id INTEGER PRIMARY KEY AUTOINCREMENT, nombres TEXT, apellidos TEXT, ndi TEXT, email TEXT,pssw1 TEXT,pssw2 TEXT)");
 
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int verAnterior, int verNueva){
         db.execSQL("DROP TABLE IF EXISTS usuariosapp");
-        db.execSQL("CREATE TABLE usuariosapp(_id INTEGER PRIMARY KEY AUTOINCREMENT, nombres TEXT, apellidos TEXT, ndi TEXT, email TEXT)");
+        db.execSQL("CREATE TABLE usuariosapp(_id INTEGER PRIMARY KEY AUTOINCREMENT, nombres TEXT, apellidos TEXT, ndi TEXT, email TEXT,pssw1 TEXT NOT NULL,pssw2 TEXT NOT NULL)");
 
     }
 
